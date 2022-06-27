@@ -11,9 +11,41 @@
 
 <body>
     <section>
-        <h1>Under_Development</h1>
+        <h1>HORO-SCOPE</h1>
+        <div id="card">
+            <h2 id="whoru"></h2>
+            <p id="qoute">YOUR HOROSCOPE....</p>
+            <p>
+            <span id="luckyNum"></span> 
+            <span id="luckyTime"></span><br>
+            <span id="compatibility"></span>
+            </p>
+        </div>
+        <div id="controls">
+            <select name="signs" id="signs">
+            <option value="Aries">Aries</option>
+            <option value="Taurus">Taurus</option>
+            <option value="Gemini">Gemini</option>
+            <option value="Cancer">Cancer</option>
+            <option value="Leo">Leo</option>
+            <option value="Virgo">Virgo</option>
+            <option value="Libra">Libra</option>
+            <option value="Scorpio">Scorpio</option>
+            <option value="Sagittarius">Sagittarius</option>
+            <option value="Capricorn">Capricorn</option>
+            <option value="Aquarius">Aquarius</option>
+            <option value="Pisces">Pisces</option>
+        </select>
+        <select name="day" id="day">
+            <option value="today">today</option>
+            <option value="yesterday">yesterday</option>
+            <option value="tomorrow">tomorrow</option>
+        </select>
+        <button id="submit">GET HOROSCOPE!</button>
+    </div>
     </section>
 
+    <script src="app.js"></script>
 </body>
 
 </html>
